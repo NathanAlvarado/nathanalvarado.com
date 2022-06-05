@@ -12,24 +12,43 @@ weight: 100
 ---
 
 <style>
-tbody{
-    width: 100%;
-    display: table;
-    }
+table{
+   margin: 0px;
+}
+
+thead{
+   width: inherit;
+   display: none;
+}
 
 #expand-box {
-    width: 100%;
-    padding: 0;
-    margin: 7px 0 0 0;
-    }
+   width: 100%;
+   padding: 0;
+   margin: 7px 0 0 0;
+}
 
 #expand-box-header {
-    margin: 0;
-    padding: 0 0 3px 2px;
-    overflow: auto;
-    }
+   margin: 0;
+   padding: 0 0 3px 2px;
+   overflow: auto;
+}
 
 #expand_box_sub_header { clear: both; }
+
+img{
+   width: 7em;  
+}
+
+figure{
+   margin: 0px;
+   display: none;
+}
+
+figure:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 </style>
 
@@ -131,9 +150,9 @@ Fourteen years of IT experience with an extensive knowledge about various techno
 * Bachelor of Science, Network Operations and Security
 
 ## Certifications
-[![CompTIA A+](comptia-a-ce-certification.1.png "CompTIA A+")](https://www.credly.com/badges/b6e226f0-48f6-4de8-96d5-69d37edc6a92/public_url)
-[![CompTIA Network+](comptia-network-ce-certification.1.png "CompTIA Network+")](https://www.credly.com/badges/bf84ffb6-afb9-4836-8d47-087ac7bfa60c/public_url)
-[![CompTIA Security+](comptia-security-ce-certification.png "CompTIA Security+")](https://www.credly.com/badges/61f16015-ec0d-4ce4-94f2-7e69d5b1f544/public_url)
+[![CompTIA A+](a+.png)](https://www.credly.com/badges/b6e226f0-48f6-4de8-96d5-69d37edc6a92/public_url)
+[![CompTIA Network+](net+.png)](https://www.credly.com/badges/bf84ffb6-afb9-4836-8d47-087ac7bfa60c/public_url)
+[![CompTIA Security+](sec+.png)](https://www.credly.com/badges/61f16015-ec0d-4ce4-94f2-7e69d5b1f544/public_url)
 
 ## Activities and Interests
 
