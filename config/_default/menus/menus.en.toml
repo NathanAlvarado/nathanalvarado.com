@@ -30,32 +30,27 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
+  url = "/docs/"
   weight = 10
-
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
 
 [[main]]
   name = "Blog"
   url = "/blog/"
   weight = 20
 
-[[main]]
-  name = "Get Started"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
+## parent example
+# [[main]]
+#  name = "Get Started"
+#  weight = 30
+#  identifier = "get-started"
+#  url = "/docs/prologue/introduction/"
 
-[[main]]
-  name = "Quick Start"
-  weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
+# [[main]]
+#  name = "Quick Start"
+#  weight = 40
+#  identifier = "quick-start"
+#  url = "/docs/prologue/quick-start/"
+#  parent = "get-started"
 
 [[main]]
   name = "Resume"
