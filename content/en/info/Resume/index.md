@@ -69,16 +69,15 @@ Fourteen years of IT experience with an extensive knowledge of various technolog
 </div>
 
 * Administer 100+ servers and 800+ Workstations for a wide variety of businesses
-*     Administer 100+ servers and 800+ Workstations for a wide variety of businesses 
-*     Manage multiple customer SAAS environments including M365, Azure AD, Google Workspaces, and AWS 
-*     Lead on-premises to cloud migration projects for Exchange, Active Directory, File Server to SharePoint, POTS & SIP to Teams Phone System 
-*     Provided escalation support to members of the Service Desk team, and participated in frontline support when needed 
-*     Remediate and respond to SOC tickets 
-*     Perform hardware upgrades and reconfiguration for servers and network infrastructure 
-*     Respond to end-user privileged access management requests 
-*     Implement IP-SEC, OpenVPN, and WireGuard VPN client and site-to-site solutions 
-*     Design network topology, IP schema, network segmentations according to customer requests and sizing needs 
-*     Lead project implementations, managed timelines, proposals, and kept in communications with client POCs 
+* Manage multiple customer SAAS environments including M365, Azure AD, Google Workspaces, and AWS 
+* Lead on-premises to cloud migration projects for Exchange, Active Directory, File Server to SharePoint, POTS & SIP to Teams Phone System 
+* Provided escalation support to members of the Service Desk team, and participated in frontline support when needed 
+* Remediate and respond to SOC tickets 
+* Perform hardware upgrades and reconfiguration for servers and network infrastructure 
+* Respond to end-user privileged access management requests 
+* Implement IP-SEC, OpenVPN, and WireGuard VPN client and site-to-site solutions 
+* Design network topology, IP schema, network segmentations according to customer requests and sizing needs 
+* Lead project implementations, managed timelines, proposals, and kept in communications with client POCs 
 
 #### Howard Hughes Hospitality, Texas
 
