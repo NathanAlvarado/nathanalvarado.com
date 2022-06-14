@@ -1,20 +1,9 @@
-[[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
 
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
-
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
+#[[docs]]
+#  name = "Help"
+#  weight = 60
+#  identifier = "Cheat Sheet"
+#  url = "/docs/Cheat Sheet"
 
 [[guide]]
   name = "Lorem"
@@ -40,17 +29,24 @@
 
 ## parent example
 # [[main]]
-#  name = "Get Started"
+#  name = "testing"
 #  weight = 30
-#  identifier = "get-started"
-#  url = "/docs/prologue/introduction/"
-
+#  identifier = "docs-menu"
+#  url = "/docs/"
+#
 # [[main]]
-#  name = "Quick Start"
+#  name = "Tutorials"
 #  weight = 40
-#  identifier = "quick-start"
-#  url = "/docs/prologue/quick-start/"
-#  parent = "get-started"
+#  identifier = "Tutorials"
+#  url = "/docs/tutorials/"
+#  parent = "docs-menu"
+#
+# [[main]]
+#  name = "Knowledge Base"
+#  weight = 50
+#  identifier = "KB"
+#  url = "/docs/KB/"
+#  parent = "docs-menu"
 
 [[main]]
   name = "Resume"
@@ -70,7 +66,7 @@
   url = "https://www.linkedin.com/in/nathan-alvarado-8b293945/"
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+ [[footer]]
+   name = "Contact Me"
+   url = "/contact/"
+   weight = 10
