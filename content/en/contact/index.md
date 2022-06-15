@@ -1,11 +1,16 @@
 ---
-title: "Contact"
-description: "Drop us an email."
+title: "Contact Me"
+description: "Contact me with any questions"
 date: 2022-04-06T09:19:42+01:00
 lastmod: 2022-04-06T09:19:42+01:00
 draft: false
 images: []
 ---
+
+Please fill the form below with any inquiries and I'll try to contact you as soon as possible. Thank you!
+
+
+<div style="body{color:#000;}">
 <form action="https://formspree.io/f/xpzbnnwe" method="POST">
   <div class="form-group">
     <label for="name">Name</label>
@@ -21,3 +26,4 @@ images: []
   </div><br />
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+</div>
