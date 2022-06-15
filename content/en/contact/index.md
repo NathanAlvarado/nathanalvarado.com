@@ -14,7 +14,7 @@ Please fill the form below with any inquiries and I'll try to contact you as soo
 <form action="https://formspree.io/f/xpzbnnwe" method="POST">
   <div class="form-group">
     <label for="name">Name</label>
-    <input id="name" type="text" name="name" class="form-control"  pattern="[A-Za-z]+" required />
+    <input id="name" type="text" name="name" class="form-control" required />
   </div>
   <div class="form-group">
     <label for="email">Email</label>
