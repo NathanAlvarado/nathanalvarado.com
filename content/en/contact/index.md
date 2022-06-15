@@ -7,7 +7,7 @@ draft: false
 images: []
 ---
 
-<form action="https://www.nathanalvarado.com/contact/submit" method="POST" class="...">
+<form action="https://formspree.io/f/xpzbnnwe" method="POST">
   <div class="form-group">
     <label for="inputName">Name</label>
     <input type="text" class="form-control" id="inputName">
