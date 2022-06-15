@@ -9,16 +9,16 @@ images: []
 
 <form action="https://formspree.io/f/xpzbnnwe" method="POST">
   <div class="form-group">
-    <label for="inputName">Name</label>
-    <input type="text" class="form-control" id="inputName">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" pattern="[A-Za-z]+" name="name" required />
   </div>
   <div class="form-group">
-    <label for="inputEmail">Email</label>
-    <input type="email" class="form-control" id="inputEmail">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email" required />
   </div>
   <div class="form-group">
-    <label for="inputMessage">Message</label>
-    <textarea class="form-control" id="inputMessage" rows="3"></textarea>
+    <label for="message">Message</label>
+    <textarea class="form-control" id="message" rows="3" name="message" required></textarea>
   </div><br />
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
