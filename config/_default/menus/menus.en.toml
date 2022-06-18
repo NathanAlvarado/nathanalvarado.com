@@ -1,25 +1,6 @@
-
-#[[docs]]
-#  name = "Help"
-#  weight = 60
-#  identifier = "Cheat Sheet"
-#  url = "/docs/Cheat Sheet"
-
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
-
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
-
 [[main]]
   name = "Docs"
-  url = "/docs/"
+  url = "/docs/documents"
   weight = 10
 
 [[main]]
@@ -27,23 +8,23 @@
   url = "/blog/"
   weight = 20
 
-## parent example
+# Docs Drop Down
 # [[main]]
-#  name = "testing"
-#  weight = 30
+#  name = "Docs"
+#  weight = 10
 #  identifier = "docs-menu"
 #  url = "/docs/"
 #
 # [[main]]
 #  name = "Tutorials"
-#  weight = 40
+#  weight = 20
 #  identifier = "Tutorials"
 #  url = "/docs/tutorials/"
 #  parent = "docs-menu"
 #
 # [[main]]
 #  name = "Knowledge Base"
-#  weight = 50
+#  weight = 30
 #  identifier = "KB"
 #  url = "/docs/KB/"
 #  parent = "docs-menu"
