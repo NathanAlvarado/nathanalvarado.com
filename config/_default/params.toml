@@ -4,7 +4,7 @@
 title = "| N | T | A |"
 titleSeparator = "-"
 titleAddition = ""
-description = "Personal website for Nathan"
+description = "Website for Nathan"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -12,8 +12,8 @@ description = "Personal website for Nathan"
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "www.nathanalvarado.com"
+titleHome = "Website for Nathan"
 
 ## Twitter Cards
 ## twitterSite = "@getdoks"
@@ -68,12 +68,11 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
-#repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/NathanAlvarado/website-hugo"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
-editPage = false
-lastMod = false
+editPage = true
+lastMod = true
 
 [options]
   lazySizes = true
@@ -92,4 +91,4 @@ lastMod = false
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = true
+    collapsibleSidebar = false
