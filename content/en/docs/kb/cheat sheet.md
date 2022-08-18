@@ -3,7 +3,7 @@ title: "Cheat Sheet"
 description: "Common commands"
 lead: "Nathan's common commands"
 date: 2022-04-06T09:19:42+01:00
-lastmod: 2022-04-06T09:19:42+01:00
+lastmod: 2022-08-18T13:57:42+01:00
 draft: false
 images: []
 menu:
@@ -91,16 +91,27 @@ Install Chocolatey and Install Office365
 
 ## Powershell
 
-Add VPN connection (Meraki type: LT2P with PAP)
+Add VPN connection (LT2P with PAP)
 ```powershell
 Add-VpnConnection -Name "VPN Name" -ServerAddress vpn.domain.tld -AllUserConnection -AuthenticationMethod Pap -EncryptionLevel Optional -Force -L2tpPsk "preshared key" -RememberCredential -TunnelType L2tp
 ```
 
+Replace VPN connection (Split tunnel with designated route and dns suffix, 10.0.0.0/24 network as example)
+```powershell
+Remove-VpnConnection -Name "VPN Name" -AllUserConnection -Force
+Add-VpnConnection -Name "VPN Name" -ServerAddress vpn.domain.tld -AllUserConnection -AuthenticationMethod Pap -EncryptionLevel Optional -Force -L2tpPsk "preshared key" -RememberCredential -TunnelType L2tp -SplitTunneling $true
+Add-VpnConnectionRoute -ConnectionName "VPN Name" -DestinationPrefix 10.0.0.0/24
+Set-DnsClientGlobalSetting -SuffixSearchList @("domain.local")
+```
+
 Test Email (authenticated)
 ```powershell
-$UserCred = get-credential 
+$UserCred = get-credential
+$fromaddr = Read-Host -Prompt 'From'
+$toaddr = Read-Host -Prompt 'To'
+$smtpsrv = Read-Host -Prompt 'SMTP Server (smtp.office365.com, smtp.gmail.com, etc.)'
 $date = get-date -format g
-Send-MailMessage –From user@domain.com –To user@domain.com –Subject “Test $date” –Body “Test SMTP Relay Service” -SmtpServer smtp.office365.com -Credential $UserCred -UseSsl -Port 587 
+Send-MailMessage –From $fromaddr –To $toaddr –Subject “Test $date” –Body “Test SMTP Relay Service” -SmtpServer $smtpsrv -Credential $UserCred -UseSsl -Port 587 
 ```
 
 Remove AppX Package for all users
