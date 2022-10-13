@@ -63,7 +63,7 @@ Fourteen years of IT experience with an extensive knowledge of various technolog
 <div id="expand-box">
    <div id="expand-box-header">
       <span style="float: left;">Network Engineer</span> 
-      <span style="float: right;">8/2017 to Present</span>
+      <span style="float: right;">8/2017 to 8/2022</span>
    </div>
     <div id="expand_box_sub_header"></div>
 </div>
