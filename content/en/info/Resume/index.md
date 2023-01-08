@@ -2,7 +2,7 @@
 title: Resume
 description: "Nathan's Resume"
 date: 2020-10-13T15:21:01+02:00
-lastmod: 2020-10-13T15:21:01+02:00
+lastmod: 2023-01-17T19:21:01+02:00
 draft: false
 images: []
 menu:
@@ -162,6 +162,7 @@ Fourteen years of IT experience with an extensive knowledge of various technolog
 [![CompTIA A+](a+.png)](https://www.credly.com/badges/b6e226f0-48f6-4de8-96d5-69d37edc6a92/public_url)
 [![CompTIA Network+](net+.png)](https://www.credly.com/badges/bf84ffb6-afb9-4836-8d47-087ac7bfa60c/public_url)
 [![CompTIA Security+](sec+.png)](https://www.credly.com/badges/61f16015-ec0d-4ce4-94f2-7e69d5b1f544/public_url)
+[![CompTIA Project+](project+.png)](https://www.credly.com/badges/cf9e6113-e184-4f36-86f6-0e7ecb65bd51/public_url)
 
 ## Activities and Interests
 
