@@ -1,12 +1,17 @@
 [[main]]
-  name = "Docs"
-  url = "/docs/documents"
+  name = "Knowledge Base"
+  url = "/docs/KB/"
   weight = 10
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 20
+  name = "Tutorials"
+  url = "/docs/tutorials/"
+  weight = 10
+
+# [[main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  weight = 20
 
 # Docs Drop Down
 # [[main]]
