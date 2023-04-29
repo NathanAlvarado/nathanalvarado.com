@@ -163,6 +163,7 @@ Fourteen years of IT experience with an extensive knowledge of various technolog
 [![CompTIA Network+](net+.png)](https://www.credly.com/badges/bf84ffb6-afb9-4836-8d47-087ac7bfa60c/public_url)
 [![CompTIA Security+](sec+.png)](https://www.credly.com/badges/61f16015-ec0d-4ce4-94f2-7e69d5b1f544/public_url)
 [![CompTIA Project+](project+.png)](https://www.credly.com/badges/cf9e6113-e184-4f36-86f6-0e7ecb65bd51/public_url)
+[![AWS Certified Cloud Practitioner](aws-ccp.png)](https://www.credly.com/badges/14da0c66-e22b-4006-bc53-cccd61e805e6/public_url)
 
 ## Activities and Interests
 
