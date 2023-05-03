@@ -171,6 +171,24 @@ Import-Module ActiveDirectory
 Get-ADUser USERNAME -Properties PasswordLastSet
 ```
 
+List Administrative users disaplying their last longon, last time their password was reset and other important info.
+
+```powershell
+# Get Members of Administrators group
+$groupmembers = Get-ADGroupMember -Identity "Administrators" -Recursive
+
+# Initilize empty array to add members to
+$memberarray = @()
+
+# Gather LastLogon and PasswordLastSet details for each member of group and add to an array
+foreach ($member in $groupmembers) {
+    $memberarray += Get-ADUser -Identity $member.SamAccountName -Properties LastLogon,PasswordLastSet,Enabled,passwordNeverExpires | Select-Object Name,@{Name='LastLogon';Expression={[DateTime]::FromFileTime($_.LastLogon)}},PasswordLastSet,Enabled,passwordNeverExpires
+}
+
+# Output Members of group with their last login and password last set values.
+Write-Output $memberarray | Sort-Object PasswordLastSet | Format-Table 
+```
+
 ### Exchange Powershell
 
 DKIM Setup
